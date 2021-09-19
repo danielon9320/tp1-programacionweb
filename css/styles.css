@@ -10,7 +10,6 @@ header {
 
 nav {
   padding: 20px;
-
   background: linear-gradient(to right, #333333, #dd1818);
 }
 .contenedor {
@@ -38,23 +37,27 @@ nav {
   width: 50%;
   object-fit: cover;
 }
+
 .tabla {
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 table {
   border-collapse: collapse;
   width: 95%;
   font-size: 12px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 th {
   padding: 10px;
   text-transform: uppercase;
   background-color: #c3c0bf;
 }
+
 td {
   padding: 2px;
   text-transform: capitalize;
@@ -72,7 +75,7 @@ tr:hover {
 h3 {
   text-align: center;
   margin-bottom: 15px;
-  font-family: "Rubik", sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 
 .contenedor-img {
@@ -82,7 +85,7 @@ h3 {
 
 .descripcion-contenedor {
   padding: 10px;
-  font-family: "Rubik", sans-serif;
+  font-family: "Kanit", sans-serif;
   text-align: justify;
   background: rgb(255, 255, 255);
   background: linear-gradient(
@@ -189,6 +192,6 @@ li {
   overflow: hidden;
 }
 
-h3{
-    text-align: center;
+h3 {
+  text-align: center;
 }
