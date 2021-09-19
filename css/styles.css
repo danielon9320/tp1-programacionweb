@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin-top: 10px;
+  text-align: right;
+}
+
+nav {
+  padding: 20px;
+
+  background: linear-gradient(to right, #333333, #dd1818);
+}
+.contenedor {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.efecto {
+  margin-left: 15px;
+  text-decoration-line: none;
+  font-size: 20px;
+  color: black;
+  font-family: "Rubik", sans-serif;
+}
+
+.efecto:hover {
+  color: white;
+  font-weight: bold;
+  text-decoration-line: underline;
+  transition: 0.1s;
+}
+.imagen1 {
+  width: 50%;
+  object-fit: cover;
+}
+.tabla {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+table {
+  border-collapse: collapse;
+  width: 95%;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+th {
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: #c3c0bf;
+}
+td {
+  padding: 2px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+tr:hover {
+  background-color: khaki;
+}
+
+.impar {
+  background-color: #ccc9c9;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: "Rubik", sans-serif;
+}
+
+.contenedor-img {
+  display: flex;
+  justify-content: center;
+}
+
+.descripcion-contenedor {
+  padding: 10px;
+  font-family: "Rubik", sans-serif;
+  text-align: justify;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(173, 173, 173, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.descripcion {
+  margin: 30px 25px;
+  text-align: left;
+}
+.contenedor {
+  width: 100%;
+}
+
+.footer-area {
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(to right, #333333, #dd1818);
+  padding: 20px 0px 0;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 2em;
+}
+
+.contenedor-footer {
+  width: 100%;
+}
+
+#datos {
+  float: left;
+}
+#integrantes {
+  float: right;
+}
+
+#efecto-direccion {
+  text-decoration-line: none;
+  color: #000;
+}
+#efecto-direccion:hover {
+  text-decoration-line: underline;
+}
+
+.contenido {
+  padding: 20px;
+}
+#datos {
+  padding-left: 10%;
+  padding-right: 50%;
+}
+
+li {
+  list-style: none;
+}
+
+.nosotros {
+  padding: 30px 10%;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+}
+.img-contacto {
+  width: 50%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.img-contacto2 {
+  text-align: center;
+  margin: 15px;
+}
+
+.contacto {
+  border: 1px solid #ececec;
+  border-radius: 5%;
+  margin: 20px;
+  width: 40%;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-box-shadow: 0px 2px 47px -24px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 47px -24px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 47px -24px rgba(0, 0, 0, 0.75);
+}
+.texto-centrado {
+  text-align: center;
+  margin-bottom: 2px;
+  line-height: 2em;
+}
+
+.contacto-contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.email {
+  color: #000;
+}
+.acortar {
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+h3{
+    text-align: center;
+}
